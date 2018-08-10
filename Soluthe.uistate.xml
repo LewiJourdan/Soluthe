@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout order="0">Main Menu</layout>
+        <layout order="2">Main Game</layout>
+        <layout order="4">Petualangan1</layout>
+        <event-sheet order="1">Event sheet 2</event-sheet>
+        <event-sheet order="3">Event sheet 1</event-sheet>
+        <event-sheet active="1" order="5">Event sheet 3</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="1" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="0">
+        <family expanded="1" name="playerButton" />
+    </families-expanded>
+    <folders-expanded>
+        <folder expanded="1" path="object-folder/" />
+        <folder expanded="0" path="object-folder/Main Game/" />
+        <folder expanded="0" path="object-folder/Main Menu/" />
+        <folder expanded="1" path="object-folder/Petualangan1/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="0" path="file-folder/" />
+        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/Dice/" />
+        <folder expanded="1" path="animation-folder/Jalur1/" />
+        <folder expanded="1" path="animation-folder/Jalur10/" />
+        <folder expanded="1" path="animation-folder/Jalur11/" />
+        <folder expanded="1" path="animation-folder/Jalur12/" />
+        <folder expanded="1" path="animation-folder/Jalur13/" />
+        <folder expanded="1" path="animation-folder/Jalur14/" />
+        <folder expanded="1" path="animation-folder/Jalur15/" />
+        <folder expanded="1" path="animation-folder/Jalur16/" />
+        <folder expanded="1" path="animation-folder/Jalur17/" />
+        <folder expanded="1" path="animation-folder/Jalur18/" />
+        <folder expanded="1" path="animation-folder/Jalur19/" />
+        <folder expanded="1" path="animation-folder/Jalur2/" />
+        <folder expanded="1" path="animation-folder/Jalur20/" />
+        <folder expanded="1" path="animation-folder/Jalur21/" />
+        <folder expanded="1" path="animation-folder/Jalur22/" />
+        <folder expanded="1" path="animation-folder/Jalur23/" />
+        <folder expanded="1" path="animation-folder/Jalur24/" />
+        <folder expanded="1" path="animation-folder/Jalur25/" />
+        <folder expanded="1" path="animation-folder/Jalur26/" />
+        <folder expanded="1" path="animation-folder/Jalur27/" />
+        <folder expanded="1" path="animation-folder/Jalur28/" />
+        <folder expanded="1" path="animation-folder/Jalur29/" />
+        <folder expanded="1" path="animation-folder/Jalur3/" />
+        <folder expanded="1" path="animation-folder/Jalur30/" />
+        <folder expanded="1" path="animation-folder/Jalur31/" />
+        <folder expanded="1" path="animation-folder/Jalur32/" />
+        <folder expanded="1" path="animation-folder/Jalur33/" />
+        <folder expanded="1" path="animation-folder/Jalur34/" />
+        <folder expanded="1" path="animation-folder/Jalur35/" />
+        <folder expanded="1" path="animation-folder/Jalur36/" />
+        <folder expanded="1" path="animation-folder/Jalur37/" />
+        <folder expanded="1" path="animation-folder/Jalur38/" />
+        <folder expanded="1" path="animation-folder/Jalur39/" />
+        <folder expanded="1" path="animation-folder/Jalur4/" />
+        <folder expanded="1" path="animation-folder/Jalur40/" />
+        <folder expanded="1" path="animation-folder/Jalur41/" />
+        <folder expanded="1" path="animation-folder/Jalur42/" />
+        <folder expanded="1" path="animation-folder/Jalur43/" />
+        <folder expanded="1" path="animation-folder/Jalur44/" />
+        <folder expanded="1" path="animation-folder/Jalur45/" />
+        <folder expanded="1" path="animation-folder/Jalur46/" />
+        <folder expanded="1" path="animation-folder/Jalur47/" />
+        <folder expanded="1" path="animation-folder/Jalur48/" />
+        <folder expanded="1" path="animation-folder/Jalur49/" />
+        <folder expanded="1" path="animation-folder/Jalur5/" />
+        <folder expanded="1" path="animation-folder/Jalur50/" />
+        <folder expanded="1" path="animation-folder/Jalur51/" />
+        <folder expanded="1" path="animation-folder/Jalur52/" />
+        <folder expanded="1" path="animation-folder/Jalur53/" />
+        <folder expanded="1" path="animation-folder/Jalur54/" />
+        <folder expanded="1" path="animation-folder/Jalur55/" />
+        <folder expanded="1" path="animation-folder/Jalur56/" />
+        <folder expanded="1" path="animation-folder/Jalur57/" />
+        <folder expanded="1" path="animation-folder/jalur58/" />
+        <folder expanded="1" path="animation-folder/Jalur59/" />
+        <folder expanded="1" path="animation-folder/Jalur6/" />
+        <folder expanded="1" path="animation-folder/Jalur60/" />
+        <folder expanded="1" path="animation-folder/Jalur61/" />
+        <folder expanded="1" path="animation-folder/Jalur62/" />
+        <folder expanded="1" path="animation-folder/Jalur63/" />
+        <folder expanded="1" path="animation-folder/Jalur64/" />
+        <folder expanded="1" path="animation-folder/Jalur65/" />
+        <folder expanded="1" path="animation-folder/Jalur66/" />
+        <folder expanded="1" path="animation-folder/Jalur67/" />
+        <folder expanded="1" path="animation-folder/Jalur68/" />
+        <folder expanded="1" path="animation-folder/Jalur69/" />
+        <folder expanded="1" path="animation-folder/Jalur7/" />
+        <folder expanded="1" path="animation-folder/Jalur70/" />
+        <folder expanded="1" path="animation-folder/Jalur71/" />
+        <folder expanded="1" path="animation-folder/Jalur72/" />
+        <folder expanded="1" path="animation-folder/Jalur73/" />
+        <folder expanded="1" path="animation-folder/Jalur74/" />
+        <folder expanded="1" path="animation-folder/Jalur75/" />
+        <folder expanded="1" path="animation-folder/Jalur76/" />
+        <folder expanded="1" path="animation-folder/Jalur77/" />
+        <folder expanded="1" path="animation-folder/Jalur78/" />
+        <folder expanded="1" path="animation-folder/Jalur79/" />
+        <folder expanded="1" path="animation-folder/Jalur8/" />
+        <folder expanded="1" path="animation-folder/Jalur80/" />
+        <folder expanded="1" path="animation-folder/Jalur9/" />
+        <folder expanded="1" path="animation-folder/karakter/" />
+        <folder expanded="1" path="animation-folder/MapGugur/" />
+        <folder expanded="1" path="animation-folder/Icon1/" />
+        <folder expanded="1" path="animation-folder/StatusBar/" />
+        <folder expanded="1" path="animation-folder/Icon2/" />
+        <folder expanded="1" path="animation-folder/karakter2/" />
+        <folder expanded="1" path="animation-folder/TapThis/" />
+        <folder expanded="1" path="animation-folder/2pButton/" />
+        <folder expanded="1" path="animation-folder/1pButton/" />
+        <folder expanded="1" path="animation-folder/4pButton/" />
+        <folder expanded="1" path="animation-folder/3pButton/" />
+        <folder expanded="1" path="animation-folder/helpButton/" />
+        <folder expanded="1" path="animation-folder/exitButton/" />
+        <folder expanded="1" path="animation-folder/inputPlayerName/" />
+        <folder expanded="1" path="animation-folder/menuBackground/" />
+        <folder expanded="1" path="animation-folder/musicButton/" />
+        <folder expanded="1" path="animation-folder/playButton/" />
+        <folder expanded="1" path="animation-folder/selectedPlayer/" />
+        <folder expanded="1" path="animation-folder/settingButton/" />
+        <folder expanded="1" path="animation-folder/logoSoluthe/" />
+        <folder expanded="1" path="animation-folder/trophyButton/" />
+        <folder expanded="1" path="animation-folder/latar/" />
+        <folder expanded="1" path="animation-folder/chara/" />
+        <folder expanded="1" path="animation-folder/door1/" />
+        <folder expanded="1" path="animation-folder/door2/" />
+        <folder expanded="1" path="animation-folder/duri/" />
+        <folder expanded="1" path="animation-folder/plat/" />
+        <folder expanded="1" path="animation-folder/plumber/" />
+        <folder expanded="1" path="animation-folder/layarLose/" />
+        <folder expanded="1" path="animation-folder/kotakTime/" />
+        <folder expanded="1" path="animation-folder/question/" />
+    </folders-expanded>
+</c2uistate>

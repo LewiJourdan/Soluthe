@@ -1,0 +1,2516 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Soluthe</name>
+    <description>test view</description>
+    <version>1.0.0.0</version>
+    <author>Henkky</author>
+    <author-email>henkky88.com</author-email>
+    <author-website>solut.com</author-website>
+    <app-id>soluthe.com</app-id>
+    <unique-id>1ikm4vqfmvr57</unique-id>
+    <saved-with-version>24400</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+        <plugin author="Rex.Rainbow" id="rex_TouchWrap" version="0.100000001">Touch wrap</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Rex.Rainbow" id="Rex_CameraFollower" version="1">Camera follower</behavior>
+        <behavior author="Rex.Rainbow" id="Rex_MoveTo" version="1">MoveTo</behavior>
+        <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
+        <behavior author="Scirra" id="Timer" version="1">Timer</behavior>
+        <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1010</width>
+        <height>540</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <first-layout>Main Menu</first-layout>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-folder name="Main Game">
+            <object-type name="Congrats" sid="979670655274665">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Dice" sid="635736006473398">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="Roll" sid="385007224618821" type="boolean" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="Rotate" sid="675285657549290">
+                        <behavior id="Rotate" />
+                    </behavior-type>
+                    <behavior-type name="CameraFollower" sid="444076058774305">
+                        <behavior id="Rex_CameraFollower" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="6" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="947272227029983" speed="0">
+                        <frame duration="1" hotspotX="0.503546" hotspotY="0.5" original-source="C:\Users\Lordshiva\Documents\Dice\1.png" />
+                        <frame duration="1" hotspotX="0.503546" hotspotY="0.5" original-source="C:\Users\Lordshiva\Documents\Dice\2.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.503546" original-source="C:\Users\Lordshiva\Documents\Dice\3.png" />
+                        <frame duration="1" hotspotX="0.503546" hotspotY="0.5" original-source="C:\Users\Lordshiva\Documents\Dice\4.png" />
+                        <frame duration="1" hotspotX="0.503546" hotspotY="0.503546" original-source="C:\Users\Lordshiva\Documents\Dice\5.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.503546" original-source="C:\Users\Lordshiva\Documents\Dice\6.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur1" sid="568727222264515">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="230232723282460" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Gugur\daun.png">
+                            <collision-poly>
+                                <point x="0.25" y="0.25" />
+                                <point x="0.5" y="0.31" />
+                                <point x="0.77" y="0.23" />
+                                <point x="0.663333" y="0.5" />
+                                <point x="0.756667" y="0.756667" />
+                                <point x="0.5" y="0.883333" />
+                                <point x="0.15" y="0.85" />
+                                <point x="0.113333" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur10" sid="920407409012317">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="348302333782851" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Gugur\daun.png">
+                            <collision-poly>
+                                <point x="0.25" y="0.25" />
+                                <point x="0.5" y="0.31" />
+                                <point x="0.77" y="0.23" />
+                                <point x="0.663333" y="0.5" />
+                                <point x="0.756667" y="0.756667" />
+                                <point x="0.5" y="0.883333" />
+                                <point x="0.15" y="0.85" />
+                                <point x="0.113333" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur11" sid="707851850563742">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="365133731891679" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Gugur\daun.png">
+                            <collision-poly>
+                                <point x="0.75" y="0.25" />
+                                <point x="0.69" y="0.5" />
+                                <point x="0.77" y="0.77" />
+                                <point x="0.5" y="0.663333" />
+                                <point x="0.243333" y="0.756667" />
+                                <point x="0.116667" y="0.5" />
+                                <point x="0.15" y="0.15" />
+                                <point x="0.5" y="0.113333" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur12" sid="225325008789636">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="815058682618933" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Gugur\daun.png">
+                            <collision-poly>
+                                <point x="0.75" y="0.75" />
+                                <point x="0.5" y="0.69" />
+                                <point x="0.23" y="0.77" />
+                                <point x="0.336667" y="0.5" />
+                                <point x="0.243333" y="0.243333" />
+                                <point x="0.5" y="0.116667" />
+                                <point x="0.85" y="0.15" />
+                                <point x="0.886667" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur13" sid="873839354170483">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="357334506793655" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Gugur\daun.png">
+                            <collision-poly>
+                                <point x="0.25" y="0.75" />
+                                <point x="0.31" y="0.5" />
+                                <point x="0.23" y="0.23" />
+                                <point x="0.5" y="0.336667" />
+                                <point x="0.756667" y="0.243333" />
+                                <point x="0.883333" y="0.5" />
+                                <point x="0.85" y="0.85" />
+                                <point x="0.5" y="0.886667" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur14" sid="935817395037765">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="509088014561112" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Gugur\daun.png">
+                            <collision-poly>
+                                <point x="0.25" y="0.25" />
+                                <point x="0.5" y="0.31" />
+                                <point x="0.77" y="0.23" />
+                                <point x="0.663333" y="0.5" />
+                                <point x="0.756667" y="0.756667" />
+                                <point x="0.5" y="0.883333" />
+                                <point x="0.15" y="0.85" />
+                                <point x="0.113333" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur15" sid="495072233946544">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="286196117750290" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Gugur\daun.png">
+                            <collision-poly>
+                                <point x="0.75" y="0.25" />
+                                <point x="0.69" y="0.5" />
+                                <point x="0.77" y="0.77" />
+                                <point x="0.5" y="0.663333" />
+                                <point x="0.243333" y="0.756667" />
+                                <point x="0.116667" y="0.5" />
+                                <point x="0.15" y="0.15" />
+                                <point x="0.5" y="0.113333" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur16" sid="294652407975887">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="841172264886931" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Gugur\daun.png">
+                            <collision-poly>
+                                <point x="0.25" y="0.25" />
+                                <point x="0.5" y="0.31" />
+                                <point x="0.77" y="0.23" />
+                                <point x="0.663333" y="0.5" />
+                                <point x="0.756667" y="0.756667" />
+                                <point x="0.5" y="0.883333" />
+                                <point x="0.15" y="0.85" />
+                                <point x="0.113333" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur17" sid="357620481761213">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="345374880509337" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Gugur\daun.png">
+                            <collision-poly>
+                                <point x="0.25" y="0.25" />
+                                <point x="0.5" y="0.31" />
+                                <point x="0.77" y="0.23" />
+                                <point x="0.663333" y="0.5" />
+                                <point x="0.756667" y="0.756667" />
+                                <point x="0.5" y="0.883333" />
+                                <point x="0.15" y="0.85" />
+                                <point x="0.113333" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur18" sid="765853570243063">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="161842145812988" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Gugur\daun.png">
+                            <collision-poly>
+                                <point x="0.75" y="0.25" />
+                                <point x="0.69" y="0.5" />
+                                <point x="0.77" y="0.77" />
+                                <point x="0.5" y="0.663333" />
+                                <point x="0.243333" y="0.756667" />
+                                <point x="0.116667" y="0.5" />
+                                <point x="0.15" y="0.15" />
+                                <point x="0.5" y="0.113333" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur19" sid="631749464544336">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="922025593894884" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Gugur\daun.png">
+                            <collision-poly>
+                                <point x="0.25" y="0.25" />
+                                <point x="0.5" y="0.31" />
+                                <point x="0.77" y="0.23" />
+                                <point x="0.663333" y="0.5" />
+                                <point x="0.756667" y="0.756667" />
+                                <point x="0.5" y="0.883333" />
+                                <point x="0.15" y="0.85" />
+                                <point x="0.113333" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur2" sid="136496662954387">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="527998438053927" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Gugur\daun.png">
+                            <collision-poly>
+                                <point x="0.25" y="0.25" />
+                                <point x="0.5" y="0.31" />
+                                <point x="0.77" y="0.23" />
+                                <point x="0.663333" y="0.5" />
+                                <point x="0.756667" y="0.756667" />
+                                <point x="0.5" y="0.883333" />
+                                <point x="0.15" y="0.85" />
+                                <point x="0.113333" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur20" sid="366704589077087">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="683861818592489" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Gugur\daun.png">
+                            <collision-poly>
+                                <point x="0.25" y="0.25" />
+                                <point x="0.5" y="0.31" />
+                                <point x="0.77" y="0.23" />
+                                <point x="0.663333" y="0.5" />
+                                <point x="0.756667" y="0.756667" />
+                                <point x="0.5" y="0.883333" />
+                                <point x="0.15" y="0.85" />
+                                <point x="0.113333" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur21" sid="459655351536480">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="792594444536218" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Dingin\Snowflakes-PNG-Background-Image.png">
+                            <collision-poly>
+                                <point x="0.28" y="0.253968" />
+                                <point x="0.5" y="0.0283447" />
+                                <point x="0.68" y="0.290249" />
+                                <point x="0.79875" y="0.5" />
+                                <point x="0.725" y="0.750567" />
+                                <point x="0.5" y="0.963719" />
+                                <point x="0.2725" y="0.752834" />
+                                <point x="0.21625" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur22" sid="492708427392386">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="714735885127445" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Dingin\bungaes.png">
+                            <collision-poly>
+                                <point x="0.265" y="0.265" />
+                                <point x="0.5" y="0.04" />
+                                <point x="0.695" y="0.305" />
+                                <point x="0.815" y="0.5" />
+                                <point x="0.75" y="0.75" />
+                                <point x="0.5" y="0.965" />
+                                <point x="0.255" y="0.745" />
+                                <point x="0.205" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur23" sid="748083737301858">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="383577134208471" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Dingin\bungaes.png">
+                            <collision-poly>
+                                <point x="0.265" y="0.265" />
+                                <point x="0.5" y="0.04" />
+                                <point x="0.695" y="0.305" />
+                                <point x="0.815" y="0.5" />
+                                <point x="0.75" y="0.75" />
+                                <point x="0.5" y="0.965" />
+                                <point x="0.255" y="0.745" />
+                                <point x="0.205" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur24" sid="105299356898248">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="425649836774843" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Dingin\bungaes.png">
+                            <collision-poly>
+                                <point x="0.265" y="0.265" />
+                                <point x="0.5" y="0.04" />
+                                <point x="0.695" y="0.305" />
+                                <point x="0.815" y="0.5" />
+                                <point x="0.75" y="0.75" />
+                                <point x="0.5" y="0.965" />
+                                <point x="0.255" y="0.745" />
+                                <point x="0.205" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur25" sid="702803282513442">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="135274321851433" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Dingin\bungaes.png">
+                            <collision-poly>
+                                <point x="0.265" y="0.265" />
+                                <point x="0.5" y="0.04" />
+                                <point x="0.695" y="0.305" />
+                                <point x="0.815" y="0.5" />
+                                <point x="0.75" y="0.75" />
+                                <point x="0.5" y="0.965" />
+                                <point x="0.255" y="0.745" />
+                                <point x="0.205" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur26" sid="420421032972195">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="713710779688614" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Dingin\bungaes.png">
+                            <collision-poly>
+                                <point x="0.265" y="0.265" />
+                                <point x="0.5" y="0.04" />
+                                <point x="0.695" y="0.305" />
+                                <point x="0.815" y="0.5" />
+                                <point x="0.75" y="0.75" />
+                                <point x="0.5" y="0.965" />
+                                <point x="0.255" y="0.745" />
+                                <point x="0.205" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur27" sid="688813109629217">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="872027991896291" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Dingin\bungaes.png">
+                            <collision-poly>
+                                <point x="0.265" y="0.265" />
+                                <point x="0.5" y="0.04" />
+                                <point x="0.695" y="0.305" />
+                                <point x="0.815" y="0.5" />
+                                <point x="0.75" y="0.75" />
+                                <point x="0.5" y="0.965" />
+                                <point x="0.255" y="0.745" />
+                                <point x="0.205" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur28" sid="230194787777363">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="706504663572064" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Dingin\bungaes.png">
+                            <collision-poly>
+                                <point x="0.265" y="0.265" />
+                                <point x="0.5" y="0.04" />
+                                <point x="0.695" y="0.305" />
+                                <point x="0.815" y="0.5" />
+                                <point x="0.75" y="0.75" />
+                                <point x="0.5" y="0.965" />
+                                <point x="0.255" y="0.745" />
+                                <point x="0.205" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur29" sid="740013444893846">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="837185155437780" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Dingin\bungaes.png">
+                            <collision-poly>
+                                <point x="0.265" y="0.265" />
+                                <point x="0.5" y="0.04" />
+                                <point x="0.695" y="0.305" />
+                                <point x="0.815" y="0.5" />
+                                <point x="0.75" y="0.75" />
+                                <point x="0.5" y="0.965" />
+                                <point x="0.255" y="0.745" />
+                                <point x="0.205" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur3" sid="767622186601706">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="617582688953780" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Gugur\daun.png">
+                            <collision-poly>
+                                <point x="0.75" y="0.25" />
+                                <point x="0.69" y="0.5" />
+                                <point x="0.77" y="0.77" />
+                                <point x="0.5" y="0.663333" />
+                                <point x="0.243333" y="0.756667" />
+                                <point x="0.116667" y="0.5" />
+                                <point x="0.15" y="0.15" />
+                                <point x="0.5" y="0.113333" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur30" sid="220616070727516">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="533007471875505" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Dingin\bungaes.png">
+                            <collision-poly>
+                                <point x="0.265" y="0.265" />
+                                <point x="0.5" y="0.04" />
+                                <point x="0.695" y="0.305" />
+                                <point x="0.815" y="0.5" />
+                                <point x="0.75" y="0.75" />
+                                <point x="0.5" y="0.965" />
+                                <point x="0.255" y="0.745" />
+                                <point x="0.205" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur31" sid="381645335119282">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="903675706569141" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Dingin\bungaes.png">
+                            <collision-poly>
+                                <point x="0.265" y="0.265" />
+                                <point x="0.5" y="0.04" />
+                                <point x="0.695" y="0.305" />
+                                <point x="0.815" y="0.5" />
+                                <point x="0.75" y="0.75" />
+                                <point x="0.5" y="0.965" />
+                                <point x="0.255" y="0.745" />
+                                <point x="0.205" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur32" sid="619040835373507">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="996657361443436" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Dingin\bungaes.png">
+                            <collision-poly>
+                                <point x="0.265" y="0.265" />
+                                <point x="0.5" y="0.04" />
+                                <point x="0.695" y="0.305" />
+                                <point x="0.815" y="0.5" />
+                                <point x="0.75" y="0.75" />
+                                <point x="0.5" y="0.965" />
+                                <point x="0.255" y="0.745" />
+                                <point x="0.205" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur33" sid="974345801797033">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="557035390008188" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Dingin\bungaes.png">
+                            <collision-poly>
+                                <point x="0.265" y="0.265" />
+                                <point x="0.5" y="0.04" />
+                                <point x="0.695" y="0.305" />
+                                <point x="0.815" y="0.5" />
+                                <point x="0.75" y="0.75" />
+                                <point x="0.5" y="0.965" />
+                                <point x="0.255" y="0.745" />
+                                <point x="0.205" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur34" sid="700940012042473">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="175545712445587" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Dingin\bungaes.png">
+                            <collision-poly>
+                                <point x="0.265" y="0.265" />
+                                <point x="0.5" y="0.04" />
+                                <point x="0.695" y="0.305" />
+                                <point x="0.815" y="0.5" />
+                                <point x="0.75" y="0.75" />
+                                <point x="0.5" y="0.965" />
+                                <point x="0.255" y="0.745" />
+                                <point x="0.205" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur35" sid="259441276666378">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="639419728061337" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Dingin\bungaes.png">
+                            <collision-poly>
+                                <point x="0.265" y="0.265" />
+                                <point x="0.5" y="0.04" />
+                                <point x="0.695" y="0.305" />
+                                <point x="0.815" y="0.5" />
+                                <point x="0.75" y="0.75" />
+                                <point x="0.5" y="0.965" />
+                                <point x="0.255" y="0.745" />
+                                <point x="0.205" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur36" sid="618676575650235">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="990415495919043" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Dingin\bungaes.png">
+                            <collision-poly>
+                                <point x="0.265" y="0.265" />
+                                <point x="0.5" y="0.04" />
+                                <point x="0.695" y="0.305" />
+                                <point x="0.815" y="0.5" />
+                                <point x="0.75" y="0.75" />
+                                <point x="0.5" y="0.965" />
+                                <point x="0.255" y="0.745" />
+                                <point x="0.205" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur37" sid="116613633766186">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="210502341575608" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Dingin\bungaes.png">
+                            <collision-poly>
+                                <point x="0.265" y="0.265" />
+                                <point x="0.5" y="0.04" />
+                                <point x="0.695" y="0.305" />
+                                <point x="0.815" y="0.5" />
+                                <point x="0.75" y="0.75" />
+                                <point x="0.5" y="0.965" />
+                                <point x="0.255" y="0.745" />
+                                <point x="0.205" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur38" sid="194107961818436">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="849675421788877" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Dingin\bungaes.png">
+                            <collision-poly>
+                                <point x="0.265" y="0.265" />
+                                <point x="0.5" y="0.04" />
+                                <point x="0.695" y="0.305" />
+                                <point x="0.815" y="0.5" />
+                                <point x="0.75" y="0.75" />
+                                <point x="0.5" y="0.965" />
+                                <point x="0.255" y="0.745" />
+                                <point x="0.205" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur39" sid="943324547843535">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="765226006017107" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Dingin\bungaes.png">
+                            <collision-poly>
+                                <point x="0.265" y="0.265" />
+                                <point x="0.5" y="0.04" />
+                                <point x="0.695" y="0.305" />
+                                <point x="0.815" y="0.5" />
+                                <point x="0.75" y="0.75" />
+                                <point x="0.5" y="0.965" />
+                                <point x="0.255" y="0.745" />
+                                <point x="0.205" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur4" sid="486620949476723">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="764767280072532" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Gugur\daun.png">
+                            <collision-poly>
+                                <point x="0.75" y="0.25" />
+                                <point x="0.69" y="0.5" />
+                                <point x="0.77" y="0.77" />
+                                <point x="0.5" y="0.663333" />
+                                <point x="0.243333" y="0.756667" />
+                                <point x="0.116667" y="0.5" />
+                                <point x="0.15" y="0.15" />
+                                <point x="0.5" y="0.113333" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur40" sid="338358356573762">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="577631441479396" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Dingin\bungaes.png">
+                            <collision-poly>
+                                <point x="0.265" y="0.265" />
+                                <point x="0.5" y="0.04" />
+                                <point x="0.695" y="0.305" />
+                                <point x="0.815" y="0.5" />
+                                <point x="0.75" y="0.75" />
+                                <point x="0.5" y="0.965" />
+                                <point x="0.255" y="0.745" />
+                                <point x="0.205" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur41" sid="897962156155639">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="431356026812073" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Semi\bunga matahari.png">
+                            <collision-poly>
+                                <point x="0.216667" y="0.270833" />
+                                <point x="0.5" y="0.0591667" />
+                                <point x="0.794" y="0.2575" />
+                                <point x="0.887333" y="0.5" />
+                                <point x="0.781333" y="0.726667" />
+                                <point x="0.5" y="0.971667" />
+                                <point x="0.167333" y="0.790833" />
+                                <point x="0.138" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur42" sid="912891020915509">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="284758797247685" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Semi\bunga matahari.png">
+                            <collision-poly>
+                                <point x="0.21" y="0.21" />
+                                <point x="0.5" y="0.07" />
+                                <point x="0.76" y="0.24" />
+                                <point x="0.99" y="0.5" />
+                                <point x="0.82" y="0.82" />
+                                <point x="0.5" y="0.98" />
+                                <point x="0.14" y="0.86" />
+                                <point x="0.04" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur43" sid="739384686742807">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="878644673877116" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Semi\bunga matahari.png">
+                            <collision-poly>
+                                <point x="0.21" y="0.21" />
+                                <point x="0.5" y="0.07" />
+                                <point x="0.76" y="0.24" />
+                                <point x="0.99" y="0.5" />
+                                <point x="0.82" y="0.82" />
+                                <point x="0.5" y="0.98" />
+                                <point x="0.14" y="0.86" />
+                                <point x="0.04" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur44" sid="492809968007606">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="470729752744661" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Semi\bunga matahari.png">
+                            <collision-poly>
+                                <point x="0.21" y="0.21" />
+                                <point x="0.5" y="0.07" />
+                                <point x="0.76" y="0.24" />
+                                <point x="0.99" y="0.5" />
+                                <point x="0.82" y="0.82" />
+                                <point x="0.5" y="0.98" />
+                                <point x="0.14" y="0.86" />
+                                <point x="0.04" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur45" sid="407481548589430">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="797364058299108" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Semi\bunga matahari.png">
+                            <collision-poly>
+                                <point x="0.21" y="0.21" />
+                                <point x="0.5" y="0.07" />
+                                <point x="0.76" y="0.24" />
+                                <point x="0.99" y="0.5" />
+                                <point x="0.82" y="0.82" />
+                                <point x="0.5" y="0.98" />
+                                <point x="0.14" y="0.86" />
+                                <point x="0.04" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur46" sid="882741074641261">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="266295262209260" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Semi\bunga matahari.png">
+                            <collision-poly>
+                                <point x="0.21" y="0.21" />
+                                <point x="0.5" y="0.07" />
+                                <point x="0.76" y="0.24" />
+                                <point x="0.99" y="0.5" />
+                                <point x="0.82" y="0.82" />
+                                <point x="0.5" y="0.98" />
+                                <point x="0.14" y="0.86" />
+                                <point x="0.04" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur47" sid="743728775946804">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="588395197761313" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Semi\bunga matahari.png">
+                            <collision-poly>
+                                <point x="0.21" y="0.21" />
+                                <point x="0.5" y="0.07" />
+                                <point x="0.76" y="0.24" />
+                                <point x="0.99" y="0.5" />
+                                <point x="0.82" y="0.82" />
+                                <point x="0.5" y="0.98" />
+                                <point x="0.14" y="0.86" />
+                                <point x="0.04" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur48" sid="278455654481366">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="474298843640060" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Semi\bunga matahari.png">
+                            <collision-poly>
+                                <point x="0.21" y="0.21" />
+                                <point x="0.5" y="0.07" />
+                                <point x="0.76" y="0.24" />
+                                <point x="0.99" y="0.5" />
+                                <point x="0.82" y="0.82" />
+                                <point x="0.5" y="0.98" />
+                                <point x="0.14" y="0.86" />
+                                <point x="0.04" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur49" sid="802143043495876">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="997508171424780" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Semi\bunga matahari.png">
+                            <collision-poly>
+                                <point x="0.21" y="0.21" />
+                                <point x="0.5" y="0.07" />
+                                <point x="0.76" y="0.24" />
+                                <point x="0.99" y="0.5" />
+                                <point x="0.82" y="0.82" />
+                                <point x="0.5" y="0.98" />
+                                <point x="0.14" y="0.86" />
+                                <point x="0.04" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur5" sid="101223139959690">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="219527433591895" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Gugur\daun.png">
+                            <collision-poly>
+                                <point x="0.75" y="0.75" />
+                                <point x="0.5" y="0.69" />
+                                <point x="0.23" y="0.77" />
+                                <point x="0.336667" y="0.5" />
+                                <point x="0.243333" y="0.243333" />
+                                <point x="0.5" y="0.116667" />
+                                <point x="0.85" y="0.15" />
+                                <point x="0.886667" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur50" sid="636751995463111">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="729090347517024" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Semi\bunga matahari.png">
+                            <collision-poly>
+                                <point x="0.21" y="0.21" />
+                                <point x="0.5" y="0.07" />
+                                <point x="0.76" y="0.24" />
+                                <point x="0.99" y="0.5" />
+                                <point x="0.82" y="0.82" />
+                                <point x="0.5" y="0.98" />
+                                <point x="0.14" y="0.86" />
+                                <point x="0.04" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur51" sid="300447192850011">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="106987104318253" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Semi\bunga matahari.png">
+                            <collision-poly>
+                                <point x="0.21" y="0.21" />
+                                <point x="0.5" y="0.07" />
+                                <point x="0.76" y="0.24" />
+                                <point x="0.99" y="0.5" />
+                                <point x="0.82" y="0.82" />
+                                <point x="0.5" y="0.98" />
+                                <point x="0.14" y="0.86" />
+                                <point x="0.04" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur52" sid="779321212803431">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="304936305949517" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Semi\bunga matahari.png">
+                            <collision-poly>
+                                <point x="0.21" y="0.21" />
+                                <point x="0.5" y="0.07" />
+                                <point x="0.76" y="0.24" />
+                                <point x="0.99" y="0.5" />
+                                <point x="0.82" y="0.82" />
+                                <point x="0.5" y="0.98" />
+                                <point x="0.14" y="0.86" />
+                                <point x="0.04" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur53" sid="446439493164711">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="491917097541232" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Semi\bunga matahari.png">
+                            <collision-poly>
+                                <point x="0.21" y="0.21" />
+                                <point x="0.5" y="0.07" />
+                                <point x="0.76" y="0.24" />
+                                <point x="0.99" y="0.5" />
+                                <point x="0.82" y="0.82" />
+                                <point x="0.5" y="0.98" />
+                                <point x="0.14" y="0.86" />
+                                <point x="0.04" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur54" sid="809588185615928">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="226663014176108" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Semi\bunga matahari.png">
+                            <collision-poly>
+                                <point x="0.21" y="0.21" />
+                                <point x="0.5" y="0.07" />
+                                <point x="0.76" y="0.24" />
+                                <point x="0.99" y="0.5" />
+                                <point x="0.82" y="0.82" />
+                                <point x="0.5" y="0.98" />
+                                <point x="0.14" y="0.86" />
+                                <point x="0.04" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur55" sid="897883835819018">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="694974145032399" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Semi\bunga matahari.png">
+                            <collision-poly>
+                                <point x="0.21" y="0.21" />
+                                <point x="0.5" y="0.07" />
+                                <point x="0.76" y="0.24" />
+                                <point x="0.99" y="0.5" />
+                                <point x="0.82" y="0.82" />
+                                <point x="0.5" y="0.98" />
+                                <point x="0.14" y="0.86" />
+                                <point x="0.04" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur56" sid="723645725088888">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="225426207722542" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Semi\bunga matahari.png">
+                            <collision-poly>
+                                <point x="0.21" y="0.21" />
+                                <point x="0.5" y="0.07" />
+                                <point x="0.76" y="0.24" />
+                                <point x="0.99" y="0.5" />
+                                <point x="0.82" y="0.82" />
+                                <point x="0.5" y="0.98" />
+                                <point x="0.14" y="0.86" />
+                                <point x="0.04" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur57" sid="632621166834055">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="668672437189333" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Semi\bunga matahari.png">
+                            <collision-poly>
+                                <point x="0.21" y="0.21" />
+                                <point x="0.5" y="0.07" />
+                                <point x="0.76" y="0.24" />
+                                <point x="0.99" y="0.5" />
+                                <point x="0.82" y="0.82" />
+                                <point x="0.5" y="0.98" />
+                                <point x="0.14" y="0.86" />
+                                <point x="0.04" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="jalur58" sid="946260773276092">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="307720578393402" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Semi\bunga matahari.png">
+                            <collision-poly>
+                                <point x="0.21" y="0.21" />
+                                <point x="0.5" y="0.07" />
+                                <point x="0.76" y="0.24" />
+                                <point x="0.99" y="0.5" />
+                                <point x="0.82" y="0.82" />
+                                <point x="0.5" y="0.98" />
+                                <point x="0.14" y="0.86" />
+                                <point x="0.04" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur59" sid="747968219820228">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="935251451769097" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Semi\bunga matahari.png">
+                            <collision-poly>
+                                <point x="0.21" y="0.21" />
+                                <point x="0.5" y="0.07" />
+                                <point x="0.76" y="0.24" />
+                                <point x="0.99" y="0.5" />
+                                <point x="0.82" y="0.82" />
+                                <point x="0.5" y="0.98" />
+                                <point x="0.14" y="0.86" />
+                                <point x="0.04" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur6" sid="254428248828179">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="507547286735643" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Gugur\daun.png">
+                            <collision-poly>
+                                <point x="0.25" y="0.75" />
+                                <point x="0.31" y="0.5" />
+                                <point x="0.23" y="0.23" />
+                                <point x="0.5" y="0.336667" />
+                                <point x="0.756667" y="0.243333" />
+                                <point x="0.883333" y="0.5" />
+                                <point x="0.85" y="0.85" />
+                                <point x="0.5" y="0.886667" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur60" sid="777713684427456">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="831804071617420" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Semi\bunga matahari.png">
+                            <collision-poly>
+                                <point x="0.21" y="0.21" />
+                                <point x="0.5" y="0.07" />
+                                <point x="0.76" y="0.24" />
+                                <point x="0.99" y="0.5" />
+                                <point x="0.82" y="0.82" />
+                                <point x="0.5" y="0.98" />
+                                <point x="0.14" y="0.86" />
+                                <point x="0.04" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur61" sid="602123081711728">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="650349122345288" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Summer\download.png">
+                            <collision-poly>
+                                <point x="0.28125" y="0.28125" />
+                                <point x="0.5" y="0.214286" />
+                                <point x="0.861607" y="0.138393" />
+                                <point x="0.794643" y="0.5" />
+                                <point x="0.705357" y="0.705357" />
+                                <point x="0.5" y="0.928571" />
+                                <point x="0.334821" y="0.665179" />
+                                <point x="0.0446429" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur62" sid="123107101970690">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="427182749898499" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Summer\download.png">
+                            <collision-poly>
+                                <point x="0.28125" y="0.28125" />
+                                <point x="0.5" y="0.214286" />
+                                <point x="0.861607" y="0.138393" />
+                                <point x="0.794643" y="0.5" />
+                                <point x="0.705357" y="0.705357" />
+                                <point x="0.5" y="0.928571" />
+                                <point x="0.334821" y="0.665179" />
+                                <point x="0.0446429" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur63" sid="248750213962197">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="967699976069134" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Summer\download.png">
+                            <collision-poly>
+                                <point x="0.28125" y="0.28125" />
+                                <point x="0.5" y="0.214286" />
+                                <point x="0.861607" y="0.138393" />
+                                <point x="0.794643" y="0.5" />
+                                <point x="0.705357" y="0.705357" />
+                                <point x="0.5" y="0.928571" />
+                                <point x="0.334821" y="0.665179" />
+                                <point x="0.0446429" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur64" sid="912006443291355">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="676231609114879" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Summer\download.png">
+                            <collision-poly>
+                                <point x="0.28125" y="0.28125" />
+                                <point x="0.5" y="0.214286" />
+                                <point x="0.861607" y="0.138393" />
+                                <point x="0.794643" y="0.5" />
+                                <point x="0.705357" y="0.705357" />
+                                <point x="0.5" y="0.928571" />
+                                <point x="0.334821" y="0.665179" />
+                                <point x="0.0446429" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur65" sid="629231463074484">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="469400489227119" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Summer\download.png">
+                            <collision-poly>
+                                <point x="0.28125" y="0.28125" />
+                                <point x="0.5" y="0.214286" />
+                                <point x="0.861607" y="0.138393" />
+                                <point x="0.794643" y="0.5" />
+                                <point x="0.705357" y="0.705357" />
+                                <point x="0.5" y="0.928571" />
+                                <point x="0.334821" y="0.665179" />
+                                <point x="0.0446429" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur66" sid="837516757974841">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="828526027132864" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Summer\download.png">
+                            <collision-poly>
+                                <point x="0.28125" y="0.28125" />
+                                <point x="0.5" y="0.214286" />
+                                <point x="0.861607" y="0.138393" />
+                                <point x="0.794643" y="0.5" />
+                                <point x="0.705357" y="0.705357" />
+                                <point x="0.5" y="0.928571" />
+                                <point x="0.334821" y="0.665179" />
+                                <point x="0.0446429" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur67" sid="929703083027038">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="348631384784772" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Summer\download.png">
+                            <collision-poly>
+                                <point x="0.28125" y="0.28125" />
+                                <point x="0.5" y="0.214286" />
+                                <point x="0.861607" y="0.138393" />
+                                <point x="0.794643" y="0.5" />
+                                <point x="0.705357" y="0.705357" />
+                                <point x="0.5" y="0.928571" />
+                                <point x="0.334821" y="0.665179" />
+                                <point x="0.0446429" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur68" sid="353048036673929">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="378391882503608" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Summer\download.png">
+                            <collision-poly>
+                                <point x="0.28125" y="0.28125" />
+                                <point x="0.5" y="0.214286" />
+                                <point x="0.861607" y="0.138393" />
+                                <point x="0.794643" y="0.5" />
+                                <point x="0.705357" y="0.705357" />
+                                <point x="0.5" y="0.928571" />
+                                <point x="0.334821" y="0.665179" />
+                                <point x="0.0446429" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur69" sid="552288949658238">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="948140076318961" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Summer\download.png">
+                            <collision-poly>
+                                <point x="0.28125" y="0.28125" />
+                                <point x="0.5" y="0.214286" />
+                                <point x="0.861607" y="0.138393" />
+                                <point x="0.794643" y="0.5" />
+                                <point x="0.705357" y="0.705357" />
+                                <point x="0.5" y="0.928571" />
+                                <point x="0.334821" y="0.665179" />
+                                <point x="0.0446429" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur7" sid="510987778776691">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="734368680088395" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Gugur\daun.png">
+                            <collision-poly>
+                                <point x="0.75" y="0.25" />
+                                <point x="0.69" y="0.5" />
+                                <point x="0.77" y="0.77" />
+                                <point x="0.5" y="0.663333" />
+                                <point x="0.243333" y="0.756667" />
+                                <point x="0.116667" y="0.5" />
+                                <point x="0.15" y="0.15" />
+                                <point x="0.5" y="0.113333" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur70" sid="782279057775656">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="644326775082901" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Summer\download.png">
+                            <collision-poly>
+                                <point x="0.28125" y="0.28125" />
+                                <point x="0.5" y="0.214286" />
+                                <point x="0.861607" y="0.138393" />
+                                <point x="0.794643" y="0.5" />
+                                <point x="0.705357" y="0.705357" />
+                                <point x="0.5" y="0.928571" />
+                                <point x="0.334821" y="0.665179" />
+                                <point x="0.0446429" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur71" sid="701370150958530">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="238554266555437" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Summer\download.png">
+                            <collision-poly>
+                                <point x="0.28125" y="0.28125" />
+                                <point x="0.5" y="0.214286" />
+                                <point x="0.861607" y="0.138393" />
+                                <point x="0.794643" y="0.5" />
+                                <point x="0.705357" y="0.705357" />
+                                <point x="0.5" y="0.928571" />
+                                <point x="0.334821" y="0.665179" />
+                                <point x="0.0446429" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur72" sid="959414306800184">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="396336526854182" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Summer\download.png">
+                            <collision-poly>
+                                <point x="0.28125" y="0.28125" />
+                                <point x="0.5" y="0.214286" />
+                                <point x="0.861607" y="0.138393" />
+                                <point x="0.794643" y="0.5" />
+                                <point x="0.705357" y="0.705357" />
+                                <point x="0.5" y="0.928571" />
+                                <point x="0.334821" y="0.665179" />
+                                <point x="0.0446429" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur73" sid="473871903589170">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="151371640600389" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Summer\download.png">
+                            <collision-poly>
+                                <point x="0.28125" y="0.28125" />
+                                <point x="0.5" y="0.214286" />
+                                <point x="0.861607" y="0.138393" />
+                                <point x="0.794643" y="0.5" />
+                                <point x="0.705357" y="0.705357" />
+                                <point x="0.5" y="0.928571" />
+                                <point x="0.334821" y="0.665179" />
+                                <point x="0.0446429" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur74" sid="517883442834828">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="974451463041175" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Summer\download.png">
+                            <collision-poly>
+                                <point x="0.28125" y="0.28125" />
+                                <point x="0.5" y="0.214286" />
+                                <point x="0.861607" y="0.138393" />
+                                <point x="0.794643" y="0.5" />
+                                <point x="0.705357" y="0.705357" />
+                                <point x="0.5" y="0.928571" />
+                                <point x="0.334821" y="0.665179" />
+                                <point x="0.0446429" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur75" sid="697082714899836">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="757268788175328" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Summer\download.png">
+                            <collision-poly>
+                                <point x="0.28125" y="0.28125" />
+                                <point x="0.5" y="0.214286" />
+                                <point x="0.861607" y="0.138393" />
+                                <point x="0.794643" y="0.5" />
+                                <point x="0.705357" y="0.705357" />
+                                <point x="0.5" y="0.928571" />
+                                <point x="0.334821" y="0.665179" />
+                                <point x="0.0446429" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur76" sid="742475217556679">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="994685459784835" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Summer\download.png">
+                            <collision-poly>
+                                <point x="0.28125" y="0.28125" />
+                                <point x="0.5" y="0.214286" />
+                                <point x="0.861607" y="0.138393" />
+                                <point x="0.794643" y="0.5" />
+                                <point x="0.705357" y="0.705357" />
+                                <point x="0.5" y="0.928571" />
+                                <point x="0.334821" y="0.665179" />
+                                <point x="0.0446429" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur77" sid="723596901287314">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="640154750312613" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Summer\download.png">
+                            <collision-poly>
+                                <point x="0.28125" y="0.28125" />
+                                <point x="0.5" y="0.214286" />
+                                <point x="0.861607" y="0.138393" />
+                                <point x="0.794643" y="0.5" />
+                                <point x="0.705357" y="0.705357" />
+                                <point x="0.5" y="0.928571" />
+                                <point x="0.334821" y="0.665179" />
+                                <point x="0.0446429" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur78" sid="678566361764626">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="890466036584980" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Summer\download.png">
+                            <collision-poly>
+                                <point x="0.28125" y="0.28125" />
+                                <point x="0.5" y="0.214286" />
+                                <point x="0.861607" y="0.138393" />
+                                <point x="0.794643" y="0.5" />
+                                <point x="0.705357" y="0.705357" />
+                                <point x="0.5" y="0.928571" />
+                                <point x="0.334821" y="0.665179" />
+                                <point x="0.0446429" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur79" sid="760954129675067">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="267688311433371" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Summer\download.png">
+                            <collision-poly>
+                                <point x="0.28125" y="0.28125" />
+                                <point x="0.5" y="0.214286" />
+                                <point x="0.861607" y="0.138393" />
+                                <point x="0.794643" y="0.5" />
+                                <point x="0.705357" y="0.705357" />
+                                <point x="0.5" y="0.928571" />
+                                <point x="0.334821" y="0.665179" />
+                                <point x="0.0446429" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur8" sid="155836783784435">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="610494422298686" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Gugur\daun.png">
+                            <collision-poly>
+                                <point x="0.25" y="0.25" />
+                                <point x="0.5" y="0.31" />
+                                <point x="0.77" y="0.23" />
+                                <point x="0.663333" y="0.5" />
+                                <point x="0.756667" y="0.756667" />
+                                <point x="0.5" y="0.883333" />
+                                <point x="0.15" y="0.85" />
+                                <point x="0.113333" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur80" sid="966702659343053">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="259938741970762" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Summer\download.png">
+                            <collision-poly>
+                                <point x="0.28125" y="0.28125" />
+                                <point x="0.5" y="0.214286" />
+                                <point x="0.861607" y="0.138393" />
+                                <point x="0.794643" y="0.5" />
+                                <point x="0.705357" y="0.705357" />
+                                <point x="0.5" y="0.928571" />
+                                <point x="0.334821" y="0.665179" />
+                                <point x="0.0446429" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jalur9" sid="135957777029373">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="798351566354046" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Map\Gugur\daun.png">
+                            <collision-poly>
+                                <point x="0.75" y="0.25" />
+                                <point x="0.69" y="0.5" />
+                                <point x="0.77" y="0.77" />
+                                <point x="0.5" y="0.663333" />
+                                <point x="0.243333" y="0.756667" />
+                                <point x="0.116667" y="0.5" />
+                                <point x="0.15" y="0.15" />
+                                <point x="0.5" y="0.113333" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="karakter" sid="844637421365435">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="move" sid="149043076501202" type="boolean" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="CameraFollower" sid="594903353132461">
+                        <behavior id="Rex_CameraFollower" />
+                    </behavior-type>
+                    <behavior-type name="MoveTo" sid="208099008898389">
+                        <behavior id="Rex_MoveTo" />
+                    </behavior-type>
+                    <behavior-type name="ScrollTo" sid="185559021863260">
+                        <behavior id="scrollto" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="659711053565532" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Karakter\Full Body\blue.png">
+                            <collision-poly>
+                                <point x="0.23" y="0.191667" />
+                                <point x="0.5" y="0.05" />
+                                <point x="0.805714" y="0.161905" />
+                                <point x="0.892857" y="0.5" />
+                                <point x="0.787143" y="0.822619" />
+                                <point x="0.5" y="0.958333" />
+                                <point x="0.15" y="0.875" />
+                                <point x="0.27" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Karakter\Full Body\green.png">
+                            <collision-poly>
+                                <point x="0.208333" y="0.125" />
+                                <point x="0.5" y="0.01" />
+                                <point x="0.775" y="0.135" />
+                                <point x="0.75" y="0.5" />
+                                <point x="0.916667" y="0.95" />
+                                <point x="0.5" y="0.985" />
+                                <point x="0.075" y="0.955" />
+                                <point x="0.216667" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Karakter\Full Body\yellow.png">
+                            <collision-poly>
+                                <point x="0.175" y="0.105" />
+                                <point x="0.5" y="0" />
+                                <point x="0.766667" y="0.14" />
+                                <point x="0.758333" y="0.5" />
+                                <point x="0.916667" y="0.95" />
+                                <point x="0.5" y="0.985" />
+                                <point x="0.0583333" y="0.965" />
+                                <point x="0.208333" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Karakter\Full Body\red.png">
+                            <collision-poly>
+                                <point x="0.2" y="0.12" />
+                                <point x="0.5" y="0.01" />
+                                <point x="0.775" y="0.135" />
+                                <point x="0.766667" y="0.5" />
+                                <point x="0.925" y="0.955" />
+                                <point x="0.5" y="0.995" />
+                                <point x="0.0666667" y="0.96" />
+                                <point x="0.225" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="MapGugur" sid="877906281453557">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="535537217853560" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\full map.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Text" sid="992026256441529">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Icon1" sid="210094591166898">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="Turn" sid="165863268127108" type="number" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="CameraFollower" sid="825467877855874">
+                        <behavior id="Rex_CameraFollower" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="371240092276264" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Karakter\Icon\avatar1.png">
+                            <collision-poly>
+                                <point x="0.146667" y="0.146667" />
+                                <point x="0.5" y="0" />
+                                <point x="0.853333" y="0.146667" />
+                                <point x="1" y="0.5" />
+                                <point x="0.853333" y="0.853333" />
+                                <point x="0.5" y="1" />
+                                <point x="0.146667" y="0.853333" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Karakter\Icon\avatar2.png">
+                            <collision-poly>
+                                <point x="0.146667" y="0.146667" />
+                                <point x="0.5" y="0" />
+                                <point x="0.853333" y="0.146667" />
+                                <point x="1" y="0.5" />
+                                <point x="0.853333" y="0.853333" />
+                                <point x="0.5" y="1" />
+                                <point x="0.146667" y="0.853333" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Karakter\Icon\avatar3.png">
+                            <collision-poly>
+                                <point x="0.146667" y="0.146667" />
+                                <point x="0.5" y="0" />
+                                <point x="0.853333" y="0.146667" />
+                                <point x="1" y="0.5" />
+                                <point x="0.853333" y="0.853333" />
+                                <point x="0.5" y="1" />
+                                <point x="0.146667" y="0.853333" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Karakter\Icon\avatar4.png">
+                            <collision-poly>
+                                <point x="0.146667" y="0.146667" />
+                                <point x="0.5" y="0" />
+                                <point x="0.853333" y="0.146667" />
+                                <point x="1" y="0.5" />
+                                <point x="0.853333" y="0.853333" />
+                                <point x="0.5" y="1" />
+                                <point x="0.146667" y="0.853333" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="gelap" pingpong="0" repeatcount="1" repeatto="0" sid="680977759691880" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="IGN1" sid="564530741403979">
+                <plugin id="Text" />
+                <behaviors>
+                    <behavior-type name="CameraFollower" sid="360157030009068">
+                        <behavior id="Rex_CameraFollower" />
+                    </behavior-type>
+                </behaviors>
+            </object-type>
+            <object-type name="StatusBar" sid="177769676719367">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="CameraFollower" sid="748025965134603">
+                        <behavior id="Rex_CameraFollower" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="953791968778452" speed="5">
+                        <frame duration="1" hotspotX="0.50198" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\wood sign.png">
+                            <collision-poly>
+                                <point x="0.0361446" y="0.145161" />
+                                <point x="0.497992" y="0.016129" />
+                                <point x="0.967871" y="0.129032" />
+                                <point x="0.995984" y="0.5" />
+                                <point x="0.967871" y="0.870968" />
+                                <point x="0.497992" y="1" />
+                                <point x="0.0361446" y="0.854839" />
+                                <point x="0.00803213" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Icon2" sid="255075366026821">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="Turn" sid="619705182779123" type="number" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="CameraFollower" sid="934090214958772">
+                        <behavior id="Rex_CameraFollower" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="463471827995754" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Karakter\Icon\avatar2.png">
+                            <collision-poly>
+                                <point x="0.146667" y="0.146667" />
+                                <point x="0.5" y="0" />
+                                <point x="0.853333" y="0.146667" />
+                                <point x="1" y="0.5" />
+                                <point x="0.853333" y="0.853333" />
+                                <point x="0.5" y="1" />
+                                <point x="0.146667" y="0.853333" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="gelap" pingpong="0" repeatcount="1" repeatto="0" sid="540553538671518" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="karakter2" sid="847252134712081">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="move" sid="463769748821714" type="boolean" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="CameraFollower" sid="807037452879029">
+                        <behavior id="Rex_CameraFollower" />
+                    </behavior-type>
+                    <behavior-type name="ScrollTo" sid="591563426684549">
+                        <behavior id="scrollto" />
+                    </behavior-type>
+                    <behavior-type name="MoveTo" sid="347684499551488">
+                        <behavior id="Rex_MoveTo" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="260350328751715" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Karakter\Full Body\green.png">
+                            <collision-poly>
+                                <point x="0.208333" y="0.125" />
+                                <point x="0.5" y="0.01" />
+                                <point x="0.775" y="0.135" />
+                                <point x="0.75" y="0.5" />
+                                <point x="0.916667" y="0.95" />
+                                <point x="0.5" y="0.985" />
+                                <point x="0.075" y="0.955" />
+                                <point x="0.216667" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="IGN2" sid="720913391827252">
+                <plugin id="Text" />
+                <behaviors>
+                    <behavior-type name="CameraFollower" sid="306009018296593">
+                        <behavior id="Rex_CameraFollower" />
+                    </behavior-type>
+                </behaviors>
+            </object-type>
+            <object-type name="TapThis" sid="741238072435751">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="233586042332702" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\tap this start.png">
+                            <collision-poly>
+                                <point x="0.345" y="0.345" />
+                                <point x="0.5" y="0.36" />
+                                <point x="0.61" y="0.39" />
+                                <point x="0.735" y="0.5" />
+                                <point x="0.71" y="0.71" />
+                                <point x="0.5" y="0.92" />
+                                <point x="0.305" y="0.695" />
+                                <point x="0.265" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\tap this.png">
+                            <collision-poly>
+                                <point x="0.225" y="0.225" />
+                                <point x="0.5" y="0.135" />
+                                <point x="0.61" y="0.39" />
+                                <point x="0.735" y="0.5" />
+                                <point x="0.71" y="0.71" />
+                                <point x="0.5" y="0.92" />
+                                <point x="0.305" y="0.695" />
+                                <point x="0.265" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="Main Menu">
+            <object-type name="2pButton" sid="219806763295613">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="194753212780085" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="A:\Chintya\PPTI 5\Projects\CAWU 3\Software Engineering\Soluthe\UI\elements\2p_button.png">
+                            <collision-poly>
+                                <point x="0.147059" y="0.147059" />
+                                <point x="0.5" y="0.0147059" />
+                                <point x="0.838235" y="0.161765" />
+                                <point x="0.985294" y="0.5" />
+                                <point x="0.852941" y="0.852941" />
+                                <point x="0.5" y="0.970588" />
+                                <point x="0.161765" y="0.838235" />
+                                <point x="0.0147059" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="clicked" pingpong="0" repeatcount="1" repeatto="0" sid="240715094105441" speed="5">
+                        <frame duration="1" hotspotX="0.525" hotspotY="0.525" original-source="A:\Chintya\PPTI 5\Projects\CAWU 3\Software Engineering\Soluthe\UI\elements\2p_button_selected.png">
+                            <collision-poly>
+                                <point x="0.15" y="0.15" />
+                                <point x="0.5125" y="0.0125" />
+                                <point x="0.8625" y="0.175" />
+                                <point x="0.9875" y="0.5125" />
+                                <point x="0.85" y="0.85" />
+                                <point x="0.5125" y="0.975" />
+                                <point x="0.175" y="0.8625" />
+                                <point x="0.0125" y="0.5125" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="1pButton" sid="543587674605103">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="526061411384415" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="A:\Chintya\PPTI 5\Projects\CAWU 3\Software Engineering\Soluthe\UI\elements\1p_button.png">
+                            <collision-poly>
+                                <point x="0.147059" y="0.147059" />
+                                <point x="0.5" y="0.0147059" />
+                                <point x="0.838235" y="0.161765" />
+                                <point x="0.985294" y="0.5" />
+                                <point x="0.852941" y="0.852941" />
+                                <point x="0.5" y="0.970588" />
+                                <point x="0.161765" y="0.838235" />
+                                <point x="0.0147059" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="clicked" pingpong="0" repeatcount="1" repeatto="0" sid="859815909056432" speed="5">
+                        <frame duration="1" hotspotX="0.506024" hotspotY="0.506024" original-source="A:\Chintya\PPTI 5\Projects\CAWU 3\Software Engineering\Soluthe\UI\elements\1p_button_selected.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="4pButton" sid="814688384315586">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="281783442031534" speed="5">
+                        <frame duration="1" hotspotX="0.507463" hotspotY="0.5" original-source="A:\Chintya\PPTI 5\Projects\CAWU 3\Software Engineering\Soluthe\UI\elements\4p_button.png">
+                            <collision-poly>
+                                <point x="0.149254" y="0.147059" />
+                                <point x="0.507463" y="0.0147059" />
+                                <point x="0.850746" y="0.161765" />
+                                <point x="0.985075" y="0.5" />
+                                <point x="0.865672" y="0.852941" />
+                                <point x="0.507463" y="0.970588" />
+                                <point x="0.164179" y="0.838235" />
+                                <point x="0.0149254" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="clicked" pingpong="0" repeatcount="1" repeatto="0" sid="515115067334773" speed="5">
+                        <frame duration="1" hotspotX="0.5125" hotspotY="0.5125" original-source="A:\Chintya\PPTI 5\Projects\CAWU 3\Software Engineering\Soluthe\UI\elements\4p_button_selected.png">
+                            <collision-poly>
+                                <point x="0.15" y="0.15" />
+                                <point x="0.5" y="0.0125" />
+                                <point x="0.85" y="0.1625" />
+                                <point x="0.9875" y="0.5" />
+                                <point x="0.85" y="0.85" />
+                                <point x="0.5" y="0.975" />
+                                <point x="0.1625" y="0.85" />
+                                <point x="0.0125" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="3pButton" sid="461379748275869">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="691763875831712" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="A:\Chintya\PPTI 5\Projects\CAWU 3\Software Engineering\Soluthe\UI\elements\3p_button.png">
+                            <collision-poly>
+                                <point x="0.147059" y="0.147059" />
+                                <point x="0.5" y="0.0147059" />
+                                <point x="0.852941" y="0.147059" />
+                                <point x="0.985294" y="0.5" />
+                                <point x="0.852941" y="0.852941" />
+                                <point x="0.5" y="0.970588" />
+                                <point x="0.161765" y="0.838235" />
+                                <point x="0.0147059" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="clicked" pingpong="0" repeatcount="1" repeatto="0" sid="119116224506951" speed="5">
+                        <frame duration="1" hotspotX="0.5125" hotspotY="0.5125" original-source="A:\Chintya\PPTI 5\Projects\CAWU 3\Software Engineering\Soluthe\UI\elements\3p_button_selected.png">
+                            <collision-poly>
+                                <point x="0.15" y="0.15" />
+                                <point x="0.5" y="0.0125" />
+                                <point x="0.85" y="0.1625" />
+                                <point x="0.9875" y="0.5" />
+                                <point x="0.85" y="0.85" />
+                                <point x="0.5" y="0.975" />
+                                <point x="0.1625" y="0.85" />
+                                <point x="0.0125" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="helpButton" sid="989121921013781">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="170432613835657" speed="5">
+                        <frame duration="1" hotspotX="0.510204" hotspotY="0.5" original-source="A:\Chintya\PPTI 5\Projects\CAWU 3\Software Engineering\Soluthe\UI\elements\help_button.png">
+                            <collision-poly>
+                                <point x="0.163265" y="0.16" />
+                                <point x="0.489796" y="0.04" />
+                                <point x="0.836735" y="0.16" />
+                                <point x="0.979592" y="0.5" />
+                                <point x="0.836735" y="0.84" />
+                                <point x="0.489796" y="0.98" />
+                                <point x="0.163265" y="0.84" />
+                                <point x="0.0204082" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="exitButton" sid="934450382182728">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="764287087086987" speed="5">
+                        <frame duration="1" hotspotX="0.507463" hotspotY="0.509091" original-source="A:\Chintya\PPTI 5\Projects\CAWU 3\Software Engineering\Soluthe\UI\elements\exit_button.png">
+                            <collision-poly>
+                                <point x="0.104478" y="0.109091" />
+                                <point x="0.492537" y="0.0181818" />
+                                <point x="0.895522" y="0.109091" />
+                                <point x="0.985075" y="0.490909" />
+                                <point x="0.910448" y="0.909091" />
+                                <point x="0.492537" y="0.981818" />
+                                <point x="0.134328" y="0.854545" />
+                                <point x="0.0149254" y="0.490909" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="inputPlayerName" sid="608109163210296">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="244023034265218" speed="5">
+                        <frame duration="1" hotspotX="0.502008" hotspotY="0.5" original-source="A:\Chintya\PPTI 5\Projects\CAWU 3\Software Engineering\Soluthe\UI\elements\name_input.png">
+                            <collision-poly>
+                                <point x="0.0361446" y="0.145161" />
+                                <point x="0.497992" y="0.016129" />
+                                <point x="0.967871" y="0.129032" />
+                                <point x="0.995984" y="0.5" />
+                                <point x="0.967871" y="0.870968" />
+                                <point x="0.497992" y="1" />
+                                <point x="0.0361446" y="0.854839" />
+                                <point x="0.00803213" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="menuBackground" sid="954012496692179">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="173496199558269" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="A:\Chintya\PPTI 5\Projects\CAWU 3\Software Engineering\Soluthe\UI\elements\menu_background.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="musicButton" sid="250033629260785">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="Mute" sid="807363841904607" type="boolean" />
+                </instance-variables>
+                <animation-folder>
+                    <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="458102032041821" speed="5">
+                        <frame duration="1" hotspotX="0.510204" hotspotY="0.5" original-source="A:\Chintya\PPTI 5\Projects\CAWU 3\Software Engineering\Soluthe\UI\elements\music_button.png">
+                            <collision-poly>
+                                <point x="0.163265" y="0.16" />
+                                <point x="0.489796" y="0.04" />
+                                <point x="0.836735" y="0.16" />
+                                <point x="0.979592" y="0.5" />
+                                <point x="0.836735" y="0.84" />
+                                <point x="0.489796" y="0.98" />
+                                <point x="0.163265" y="0.84" />
+                                <point x="0.0204082" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Main Menu\Main menu icon\no_music_button.png">
+                            <collision-poly>
+                                <point x="0.18" y="0.18" />
+                                <point x="0.5" y="0.04" />
+                                <point x="0.84" y="0.16" />
+                                <point x="0.98" y="0.5" />
+                                <point x="0.84" y="0.84" />
+                                <point x="0.5" y="0.98" />
+                                <point x="0.18" y="0.82" />
+                                <point x="0.04" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="playButton" sid="162722654584617">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="405978475894118" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="A:\Chintya\PPTI 5\Projects\CAWU 3\Software Engineering\Soluthe\UI\elements\play_button.png">
+                            <collision-poly>
+                                <point x="0.047486" y="0.166667" />
+                                <point x="0.5" y="0.0196078" />
+                                <point x="0.955307" y="0.156863" />
+                                <point x="0.994413" y="0.5" />
+                                <point x="0.960894" y="0.862745" />
+                                <point x="0.5" y="0.990196" />
+                                <point x="0.0418994" y="0.852941" />
+                                <point x="0.00558659" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="selectedPlayer" sid="767505621313589">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="622235791745073" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\LAPTOP\Desktop\Proyek SE\Resources\Main Menu\Character Select\blue_selected.PNG">
+                            <collision-poly>
+                                <point x="0.145695" y="0.145695" />
+                                <point x="0.5" y="0.00331126" />
+                                <point x="0.850993" y="0.149007" />
+                                <point x="0.996689" y="0.5" />
+                                <point x="0.850993" y="0.850993" />
+                                <point x="0.5" y="0.996689" />
+                                <point x="0.142384" y="0.857616" />
+                                <point x="0.00331126" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Karakter\Icon\green_selected.png">
+                            <collision-poly>
+                                <point x="0.146667" y="0.146667" />
+                                <point x="0.5" y="0" />
+                                <point x="0.853333" y="0.146667" />
+                                <point x="1" y="0.5" />
+                                <point x="0.853333" y="0.853333" />
+                                <point x="0.5" y="1" />
+                                <point x="0.146667" y="0.853333" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Karakter\Icon\yellow_selected.png">
+                            <collision-poly>
+                                <point x="0.146667" y="0.146667" />
+                                <point x="0.5" y="0" />
+                                <point x="0.853333" y="0.146667" />
+                                <point x="1" y="0.5" />
+                                <point x="0.853333" y="0.853333" />
+                                <point x="0.5" y="1" />
+                                <point x="0.146667" y="0.853333" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Karakter\Icon\red_selected.png">
+                            <collision-poly>
+                                <point x="0.146667" y="0.146667" />
+                                <point x="0.5" y="0" />
+                                <point x="0.853333" y="0.146667" />
+                                <point x="1" y="0.5" />
+                                <point x="0.853333" y="0.853333" />
+                                <point x="0.5" y="1" />
+                                <point x="0.146667" y="0.853333" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="settingButton" sid="181886391738665">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="533929850605308" speed="5">
+                        <frame duration="1" hotspotX="0.505263" hotspotY="0.505882" original-source="A:\Chintya\PPTI 5\Projects\CAWU 3\Software Engineering\Soluthe\UI\elements\setting_button.png">
+                            <collision-poly>
+                                <point x="0.115789" y="0.129412" />
+                                <point x="0.494737" y="0" />
+                                <point x="0.863158" y="0.152941" />
+                                <point x="0.989474" y="0.494118" />
+                                <point x="0.873684" y="0.858824" />
+                                <point x="0.494737" y="1" />
+                                <point x="0.126316" y="0.858824" />
+                                <point x="0.0105263" y="0.494118" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="logoSoluthe" sid="766905431988076">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="538433782568830" speed="5">
+                        <frame duration="1" hotspotX="0.502024" hotspotY="0.503311" original-source="A:\Chintya\PPTI 5\Projects\CAWU 3\Software Engineering\Soluthe\UI\elements\logo.png">
+                            <collision-poly>
+                                <point x="0.0364372" y="0.125828" />
+                                <point x="0.5" y="0.0463576" />
+                                <point x="0.983806" y="0.0662252" />
+                                <point x="0.995951" y="0.503311" />
+                                <point x="0.977733" y="0.92053" />
+                                <point x="0.5" y="0.993378" />
+                                <point x="0.0242915" y="0.92053" />
+                                <point x="0.0101215" y="0.503311" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="trophyButton" sid="866070096710907">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="643937827195467" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.505263" original-source="A:\Chintya\PPTI 5\Projects\CAWU 3\Software Engineering\Soluthe\UI\elements\trophy_button.png">
+                            <collision-poly>
+                                <point x="0.13" y="0.136842" />
+                                <point x="0.5" y="0.0210526" />
+                                <point x="0.85" y="0.157895" />
+                                <point x="0.98" y="0.494737" />
+                                <point x="0.87" y="0.863158" />
+                                <point x="0.5" y="0.978947" />
+                                <point x="0.13" y="0.863158" />
+                                <point x="0.02" y="0.494737" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="InputName" sid="369205894065509">
+                <plugin id="TextBox" />
+            </object-type>
+        </object-folder>
+        <object-folder name="Petualangan1">
+            <object-type name="latar" sid="671711363108910">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="467512659390112" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="chara" sid="750802195987060">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Platform" sid="158059017236682">
+                        <behavior id="Platform" />
+                    </behavior-type>
+                    <behavior-type name="ScrollTo" sid="634026234938236">
+                        <behavior id="scrollto" />
+                    </behavior-type>
+                    <behavior-type name="CameraFollower" sid="718788570158056">
+                        <behavior id="Rex_CameraFollower" />
+                    </behavior-type>
+                    <behavior-type name="BoundToLayout" sid="819132360792579">
+                        <behavior id="bound" />
+                    </behavior-type>
+                    <behavior-type name="Timer" sid="489220170564091">
+                        <behavior id="Timer" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="666785168435548" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\Proyek SE\Resources\Karakter\Full Body\blue.png">
+                            <collision-poly>
+                                <point x="0.216667" y="0.13" />
+                                <point x="0.5" y="0.015" />
+                                <point x="0.766667" y="0.14" />
+                                <point x="0.741667" y="0.5" />
+                                <point x="0.891667" y="0.935" />
+                                <point x="0.5" y="0.965" />
+                                <point x="0.1" y="0.94" />
+                                <point x="0.225" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="door1" sid="665553094104756">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="332140603046069" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\resources petualangan\resources petualangan\wrought-iron-2746547_960_720.png">
+                            <collision-poly>
+                                <point x="0.123958" y="0.199664" />
+                                <point x="0.5" y="0.0419463" />
+                                <point x="0.88125" y="0.191275" />
+                                <point x="0.975" y="0.5" />
+                                <point x="0.958333" y="0.932886" />
+                                <point x="0.040625" y="0.934564" />
+                                <point x="0.0395833" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="door2" sid="941676615249113">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="208840666215670" speed="5">
+                        <frame duration="1" hotspotX="0.500855" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\resources petualangan\resources petualangan\goal-819975__340.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="0.986325" y="0.5" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0.0136752" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="duri" sid="100973756756663">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="858971726605739">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="434082430701038" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.501845" original-source="C:\Users\henkk\OneDrive\Desktop\resources petualangan\resources petualangan\barbed-wire-3104944_960_720.png">
+                            <collision-poly>
+                                <point x="0.0541667" y="0.324723" />
+                                <point x="0.0822917" y="0.439114" />
+                                <point x="0.319792" y="0.328413" />
+                                <point x="0.403776" y="0.466328" />
+                                <point x="0.533594" y="0.305351" />
+                                <point x="0.597396" y="0.48524" />
+                                <point x="0.677864" y="0.288745" />
+                                <point x="0.898958" y="0.442804" />
+                                <point x="0.903646" y="0.315498" />
+                                <point x="1" y="0.498155" />
+                                <point x="0.902083" y="0.653137" />
+                                <point x="0.5" y="0.568266" />
+                                <point x="0.127083" y="0.549815" />
+                                <point x="0" y="0.498155" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="plat" sid="895270413687694">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="645096013984252">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="723680554596568" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\resources petualangan\resources petualangan\brick_base.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="plumber" sid="296071833104961">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="897479244134358">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="978187727939268" speed="5">
+                        <frame duration="1" hotspotX="0.501253" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\resources petualangan\resources petualangan\Warp_Pipe.png">
+                            <collision-poly>
+                                <point x="0.0150376" y="0.0107914" />
+                                <point x="0.984962" y="0.0107914" />
+                                <point x="0.984962" y="0.181655" />
+                                <point x="0.9198" y="0.192446" />
+                                <point x="0.912281" y="0.996403" />
+                                <point x="0.498747" y="1" />
+                                <point x="0.0902256" y="1" />
+                                <point x="0.075188" y="0.190647" />
+                                <point x="0.0112782" y="0.176259" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-type name="Mouse" sid="710124485430576">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="Touch" sid="663999160201601">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="Keyboard" sid="520973231102043">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="TouchWrap" sid="688116806824223">
+            <plugin id="rex_TouchWrap" />
+        </object-type>
+        <object-type name="layarLose" sid="722217395727250">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="CameraFollower" sid="568528678492402">
+                    <behavior id="Rex_CameraFollower" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="523725927852034" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Lose" sid="579597132919832">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="CameraFollower" sid="491979544166124">
+                    <behavior id="Rex_CameraFollower" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="kotakTime" sid="862807945125654">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="CameraFollower" sid="150433946325518">
+                    <behavior id="Rex_CameraFollower" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="257428024464064" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\map petualangan\waktuuu.PNG" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="menit" sid="858672454565883">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="CameraFollower" sid="131943510065227">
+                    <behavior id="Rex_CameraFollower" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="detik" sid="768674240554990">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="CameraFollower" sid="968530886439782">
+                    <behavior id="Rex_CameraFollower" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="question" sid="515814027167321">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="CameraFollower" sid="565335591928282">
+                    <behavior id="Rex_CameraFollower" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="814935176282629" speed="5">
+                    <frame duration="1" hotspotX="0.501401" hotspotY="0.5" original-source="C:\Users\henkk\OneDrive\Desktop\map petualangan\question.JPG" />
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families>
+        <family name="playerButton" plugin-id="Sprite" sid="310873194480312">
+            <members>
+                <member>1pButton</member>
+                <member>2pButton</member>
+                <member>3pButton</member>
+                <member>4pButton</member>
+            </members>
+        </family>
+    </families>
+    <layout-folder>
+        <layout>Main Menu.xml</layout>
+        <layout>Main Game.xml</layout>
+        <layout>Petualangan1.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Event sheet 2.xml</event-sheet>
+        <event-sheet>Event sheet 3.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Touch" uid="87">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Mouse" uid="102" />
+        <global-instance type="Keyboard" uid="103" />
+        <global-instance type="TouchWrap" uid="138">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+                <enable>Yes</enable>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
