@@ -258,33 +258,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="tes" uid="170">
-                    <properties>
-                        <text>Text</text>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>320</x>
-                        <y>336</y>
-                        <z>0</z>
-                        <width>200</width>
-                        <height>30</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="kotakTime" uid="175">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -293,6 +266,11 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <behavior-instances>
+                        <behavior-instance type="BoundToLayout">
+                            <properties>
+                                <bound-by>Edge</bound-by>
+                            </properties>
+                        </behavior-instance>
                         <behavior-instance type="CameraFollower">
                             <properties>
                                 <type>Follower</type>
@@ -301,17 +279,12 @@
                                 <y>1</y>
                             </properties>
                         </behavior-instance>
-                        <behavior-instance type="BoundToLayout">
-                            <properties>
-                                <bound-by>Edge</bound-by>
-                            </properties>
-                        </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>77</x>
-                        <y>47</y>
+                        <x>108</x>
+                        <y>49</y>
                         <z>0</z>
                         <width>143</width>
                         <height>65</height>
@@ -324,7 +297,7 @@
                 </instance>
                 <instance type="detik" uid="176">
                     <properties>
-                        <text>30</text>
+                        <text>10</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial Rounded MT Bold,-29,400,0</font>
                         <color>0,0,0</color>
@@ -335,6 +308,11 @@
                         <line-height>0</line-height>
                     </properties>
                     <behavior-instances>
+                        <behavior-instance type="BoundToLayout">
+                            <properties>
+                                <bound-by>Edge</bound-by>
+                            </properties>
+                        </behavior-instance>
                         <behavior-instance type="CameraFollower">
                             <properties>
                                 <type>Follower</type>
@@ -347,8 +325,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>92</x>
-                        <y>29</y>
+                        <x>125</x>
+                        <y>39</y>
                         <z>0</z>
                         <width>44</width>
                         <height>34</height>
@@ -372,6 +350,11 @@
                         <line-height>0</line-height>
                     </properties>
                     <behavior-instances>
+                        <behavior-instance type="BoundToLayout">
+                            <properties>
+                                <bound-by>Edge</bound-by>
+                            </properties>
+                        </behavior-instance>
                         <behavior-instance type="CameraFollower">
                             <properties>
                                 <type>Follower</type>
@@ -384,8 +367,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>24</x>
-                        <y>30</y>
+                        <x>57</x>
+                        <y>39</y>
                         <z>0</z>
                         <width>40</width>
                         <height>39</height>
@@ -440,16 +423,16 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>502</x>
+                        <x>506.5</x>
                         <y>269</y>
                         <z>0</z>
-                        <width>1014</width>
+                        <width>1015</width>
                         <height>542</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
-                        <opacity>0.600000024</opacity>
+                        <opacity>0.899999976</opacity>
                     </world>
                 </instance>
                 <instance type="LoseNotif" uid="92">
@@ -472,14 +455,41 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>536</x>
-                        <y>263</y>
+                        <x>524</x>
+                        <y>187</y>
                         <z>0</z>
                         <width>516</width>
                         <height>132</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="answer" uid="187">
+                    <properties>
+                        <text>jawaban benar</text>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <font>Cooper Black,-43,400,0</font>
+                        <color>51,255,0</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>229</x>
+                        <y>242</y>
+                        <z>0</z>
+                        <width>577</width>
+                        <height>151</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
